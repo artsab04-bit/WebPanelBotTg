@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+body { margin: 0; background: #121212; color: #fff; font-family: Inter, sans-serif; }
+.app { padding: 16px; }
+header { font-size: 24px; margin-bottom: 16px; }
+.layout { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 12px; }
+.col { background: #1b1b1f; border-radius: 16px; padding: 14px; min-height: 70vh; }
+input, textarea, button { border-radius: 14px; border: 1px solid #333; background: #222; color: white; padding: 10px; }
+input, textarea { width: 100%; box-sizing: border-box; margin-bottom: 8px; }
+.filters { display: flex; gap: 8px; margin: 8px 0; }
+.messages { height: 52vh; border: 1px solid #333; border-radius: 14px; padding: 12px; }
+.composer { margin-top: 12px; }
+.accent { background: #8B5CF6; border-color: #8B5CF6; }
